@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.review {
+    height: fit-content;
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.underline {
+    width: 10%;
+    height: 3px;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+.review_img {
+    margin: 0 auto;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    margin-bottom: 10px
+}
+
+.name {
+    height: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.job {
+    height: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.description {
+    height: fit-content;
+    text-align: center
+}
+
+.btn_container {
+    height: 30px;
+
+    margin-bottom: 20px;
+}
+
+.next_btn,
+.prev_btn {
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    outline: none;
+    margin-right: 20px;
+}
+
+.surprise_container {
+    height: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.surprise {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgba(0, 0, 255, 0.463);
+    background-color: black;
+    border: 2px solid rgba(0, 0, 255, 0.463);
+}
+
+.surprise:hover {
+    background-color: rgba(0, 0, 255, 0.463);
+}
